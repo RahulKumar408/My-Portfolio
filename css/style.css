@@ -166,7 +166,7 @@
         height: 30px;
         border-radius: 50px;
     }
-    .slider .logo a::before{
+    /* .slider .logo a::before{
         content: '';
         position: absolute;
         width: 40px;
@@ -189,7 +189,7 @@
         top: 0;
         right: 0;
         
-    }
+    } */
 
     ul {
         margin-top: 95px;
@@ -245,7 +245,7 @@
         height: 400px;
         border-radius: 10px;
     }
-    .home-img::after{
+    /* .home-img::after{
         content: '';
         position: absolute;
         bottom: -40px;
@@ -266,7 +266,7 @@
         border-top: 10px solid var(--skin-color);
         border-left: 10px solid var(--skin-color);
         border-radius: 26px
-    }
+    } */
 
     h3.hello{
         font-size: 20px;
@@ -318,6 +318,7 @@
         color: var(--text-balck-900);
     }
     .home-information{
+        margin: auto auto;
         flex: 0 0 60%;
         max-width: 60%;
     }
@@ -425,6 +426,8 @@
     }
 
     .scroll-bag{
+        background-color: var(--bg-black-100);
+        padding: 10px;
         margin-top: 30px;
         width: 60%;
         height: 200px;
@@ -751,12 +754,12 @@
         background-color: var(--bg-black-50);
         color: var(--text-balck-700);
     }
-    .contact-form .email, .massege{
+    .contact-form .email, .message{
         width: 85%;
         background-color: var(--bg-black-50);
         color: var(--text-balck-700);
     }
-    .contact-form .massege{
+    .contact-form .message{
         height: 100px;
         background-color: var(--bg-black-50);
         color: var(--text-balck-700);
