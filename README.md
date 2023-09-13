@@ -1,24 +1,25 @@
 # My-Portfolio
-This is my portfolio website. To know more about me visite the About Section of website.
+This is my portfolio website. To know more about me visit the About Section of the website.
 
 
-## Project Imgaes
+## Project Images
 
 #### Home Page
-![image](https://user-images.githubusercontent.com/76462870/233813742-9e0b82f4-19db-4f15-8c3c-b7e0fdea5915.png)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/3fc22336-7eec-4d59-bb93-53d5690fb361)
 
-#### Home Page (Dark Mode on)
-![image](https://user-images.githubusercontent.com/76462870/233813755-0e70e471-c20d-4d3d-89c6-52d5e8e16881.png)
+#### Home Page (Light Mode on)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/1981f480-a267-49b8-a7a8-241eb73d6afa)
 
 #### About Page
-![image](https://user-images.githubusercontent.com/76462870/233813777-1033cc2e-5f1f-43d1-a06b-256c643fb79b.png)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/ff5299c7-09cb-42f1-8084-aaf20d7d4363)
 
 #### Project Section
-![image](https://user-images.githubusercontent.com/76462870/233813788-e3573b45-43e6-4a79-9b9b-f56aff7833e9.png)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/ef406429-dcc8-4970-9417-b255b91409cf)
 
 #### Conatact From
-![image](https://user-images.githubusercontent.com/76462870/233813804-b741cdf3-d964-4c4a-a282-fe37f361f7eb.png)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/73ff12ef-5519-4318-b2e3-354253f6fd55)
 
 #### Theme color
-![image](https://user-images.githubusercontent.com/76462870/233813826-7df37705-f87c-4226-8935-ab2e0fc48c78.png)
+![image](https://github.com/RahulKumar408/My-Portfolio/assets/76462870/7ded875b-165a-4f7a-b77b-bcd112ae90e5)
+
 
