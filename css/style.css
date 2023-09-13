@@ -710,8 +710,8 @@
     }
 
     .contact-icon-items{
-        flex: 0 0 25%;
-        max-width: 25%;
+        flex: 0 0 33%;
+        max-width: 33%;
         box-sizing: border-box;
         text-align: center;
     }
@@ -794,5 +794,21 @@
         color: black;
         margin: 10px 10px;
     }
+
+    /* updating in porject section  */
+
+    .fb{
+        font-weight: bold;
+    }
+
+    .projecttimeline{
+        margin-right: 5px;
+        margin-top: 3px;
+        color: var(--skin-color);
+    }
+    .project-name{
+        color: var(--skin-color);
+    }
+
 
     

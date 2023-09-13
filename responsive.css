@@ -77,17 +77,35 @@
 }
 
 @media only screen and (max-width: 800px){
-    .home-information {
+    body{
+        font-size: 16px;
+    }
+    .main-content{
+        flex: auto;
+    }
+    .home{
+        width: fit-content;
+    }
+
+    .home-information{
+        margin: auto auto;
         flex: 0 0 100%;
         max-width: 100%;
     }
+ 
+    .home-img{
+        flex: 0 0 100%;
+        max-width: 100%;
+        text-align: center;
+    }
+
     .home-img img{
         height: 500px;
         border-radius: 10px;
-        margin-top: 30px;
-        margin-left: 18vh;
-        margin-bottom: 0px;
         box-shadow: 0 0 70 rgb(20, 20, 20 , 0.3);
+        margin-top: 20px;
+        margin-bottom: 0px;
+       
     }
     
     .service-items,.project-items{
@@ -114,5 +132,14 @@
         box-sizing: border-box;
         flex: 0 0 100%;  
         margin-bottom: 30px;
+    }
+
+    .home{
+        min-width: 100%;
+    }
+
+    .contact-icon-items{
+        flex: 0 0 100%;
+        max-width: 100%;
     }
 }
