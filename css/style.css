@@ -245,6 +245,18 @@
         position: relative;
 
     }
+    .hl{
+        margin-top: 5vw;
+    }
+    .icon-sidebar{
+        text-align: center;
+    }
+    .icon-sidebar a i{
+        font-size: 30px;
+        color: var(--skin-color);;
+        margin: 10px 10px;
+    }
+
     /* Home section css */
     .home-img img{
         height: 400px;

@@ -32,19 +32,29 @@ navTogglerCross.addEventListener("click", () => {
 
 // changing the color active nav item
 
-// $(document).ready(function () {
 
-//     $('ul.nav > li')
-//             .click(function (e) {
-//         $('ul.navbarnav > li')
-//             .removeClass('active');
-//         $(this).addClass('active');
-//     });
-// });
+// Assuming navElements is your HTMLCollection
+let navElements = document.getElementsByClassName('navEle');
+
+// Function to handle the click event
+function handleNavClick(clickedElement) {
+  // Remove 'active' class from all navElements
+  for (let navElement of navElements) {
+    navElement.classList.remove('active');
+  }
+
+  // Add 'active' class to the clicked element
+  clickedElement.classList.add('active');
+}
+
+// Add click event listener to each navElement
+for (let navElement of navElements) {
+  navElement.addEventListener('click', function() {
+    handleNavClick(this); // 'this' refers to the clicked navElement
+  });
+}
 
 //  SEnd emial
-
-
 function sendEmail() {
     Email.send({
         Host: "smtp.gmail.com",

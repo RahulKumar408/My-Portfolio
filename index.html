@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/themeClr/color4.css" class="alternate-style" id="color4">
     <link rel="stylesheet" href="css/themeClr/color5.css" class="alternate-style" id="color5" disabled>
     <link rel="stylesheet" href="css/styleSwitcher.css">
-    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Portfolio website</title>
 </head>
 
@@ -39,12 +39,20 @@
             </div>
 
             <ul class="nav">
-                <li><a href="#home" class="active"><i class="fa-solid fa-house "></i>Home</a></li>
-                <li><a href="#about"><i class="fa-solid fa-address-card"></i>About</a></li>
+                <li><a href="#home" class="navEle active"><i class="fa-solid fa-house "></i>Home</a></li>
+                <li><a href="#about" class="navEle"><i class="fa-solid fa-address-card"></i>About</a></li>
 
-                <li><a href="#project"><i class="fa-solid fa-clipboard-list"></i>Project</a></li>
-                <li><a href="#contact"><i class="fa-solid fa-comments"></i>Contact Me</a></li>
+                <li><a href="#project" class="navEle"><i class="fa-solid fa-clipboard-list"></i>Project</a></li>
+                <li><a href="#contact" class="navEle"><i class="fa-solid fa-comments"></i>Contact Me</a></li>
+                <li><a href="./pages/blog.html" class="navEle"><i class="fa-solid fa-blog"></i>Blog</a></li>
             </ul>
+            <hr class="hl">
+            <div class="icon-sidebar">
+                <a href="https://github.com/RahulKumar408" target="_blank"><i
+                        class="fa-brands fa-github-square"></i></a>
+                <a href="https://www.linkedin.com/in/rahul-kumar-880a30200/" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></i></a>
+            </div>
         </div>
         <!-- Slider end  -->
 
@@ -351,8 +359,32 @@
                     </div>
                     <div class="row padd-15">
                         <!-- Project Items start -->
+                        <!-- LMS App -->
+                        <div class="project-items ">
+                            <div class="project-items-inner">
+                                <div class="project-image">
+                                    <img src="image/lms_home.png" alt="">
+                                </div>
+                                <h2 class="project-name sk">Library Management System</h2>
+                                <h5>
+                                    <i class="fa-solid fa-calendar-days projecttimeline"></i> Dec 2023
+                                </h5>
+                                <p>
+                                    Developed a dynamic Library Management application using <span
+                                        class="fb">MERN Stack
+                                    </span> with <span class="fb">JWT Authentication</span>.
+                                    The app provides various feature. Students can log in using their email and name, search for
+                                    available books, and view their issue history. Administrators, manage existing books by editing or deleting them, add new
+                                    books, add new student and admin profiles, perform book transactions with the
+                                    ability to edit them, return books issued earlier, and access comprehensive library
+                                    statistics.
+                                    Visit the <a href="https://github.com/RahulKumar408/Library-Management-system"
+                                        target="_blank">
+                                        source code</a>
+                                </p>
+                            </div>
+                        </div>
                         <!-- Quiz App -->
-                        <!-- Food Delivery app -->
                         <div class="project-items ">
                             <div class="project-items-inner">
                                 <div class="project-image">
@@ -370,9 +402,8 @@
                                     quiz-taking experience, allowing users to give their assessments. This project
                                     demonstrates proficiency in full-stack development, data management, and user
                                     authentication.
-                                    Visit the  <a
-                                        href="https://github.com/RahulKumar408/quiz-app" target="_blank">
-                                       source code</a>
+                                    Visit the <a href="https://github.com/RahulKumar408/quiz-app" target="_blank">
+                                        source code</a>
                                 </p>
                             </div>
                         </div>
@@ -394,9 +425,9 @@
                                     status, and restaurant information. Incorporated features of different views and
                                     authentication for enhanced user experience and system security. Worked closely with
                                     team members to complete project tasks on time.
-                                    Visit the  <a
-                                        href="https://github.com/RahulKumar408/fooddeliverysystemg" target="_blank">
-                                       source code</a>
+                                    Visit the <a href="https://github.com/RahulKumar408/fooddeliverysystemg"
+                                        target="_blank">
+                                        source code</a>
                                 </p>
                             </div>
                         </div>
@@ -434,9 +465,9 @@
                                 </h5>
                                 <p> It is newsapp developed using React Js, Bootstrap and News API. Here you can read
                                     the all category news related to the world. It has feature of Infinite scroll bar
-                                    and top loading bar similar to YouTube. Visit the source code.  Visit the  <a
+                                    and top loading bar similar to YouTube. Visit the source code. Visit the <a
                                         href="https://github.com/RahulKumar408/NewsApp" target="_blank">
-                                       source code</a>
+                                        source code</a>
                                 </p>
                             </div>
                         </div>
